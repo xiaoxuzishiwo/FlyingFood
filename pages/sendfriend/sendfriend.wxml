@@ -1,0 +1,15 @@
+<view class="body">
+  <view class="cardFigure"><image src="../images/card1.jpeg"></image></view>
+  <view class="secondRow">
+    <view class="txx"><image src="../images/tx.jpg"></image></view>
+    <text>请选择一个朋友</text>
+  </view>
+  <view class="bottom">
+    <textarea placeholder='留言叮嘱:' maxlength="125"></textarea>
+    <text>最多输入125个字哦!</text>
+  </view>
+  <view class="bottom3">
+    <button open-type="share" class="diyige">送给朋友</button>
+    <view class="dierge">送给自己,直接放入卡包</view>
+  </view>
+</view>

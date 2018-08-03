@@ -1,0 +1,96 @@
+<!--pages/list/list.wxml-->
+<!-- <text>pages/list/list.wxml</text> -->
+<view>
+  <!-- 表头部分 -->
+  <view class='header'>
+    <image class='img' src='../images/gitf.JPEG'></image>
+    <text>选择礼品</text>
+  </view>
+<view>
+  <view class='good-pictures' >
+    <view class='good-picture-eve' wx:for="{{goodsData}}" wx:for-index="idx" wx:for-item="goodsItem" wx:key="idx">
+      <view class='good-list-picture' bindtap="powerDrawer" data-statu="open"><image src='../images/card2.jpg'></image></view>
+      <view class=' good-card-top'>
+        <text class='good-card'>{{goodsItem.name}}</text>
+        <text class='good-price'>￥{{goodsItem.price}}.00</text>
+      </view>
+      <!-- 如果有商品全部展开 -->
+      <view class=' good-card-bottom' wx:if="{{goodsItem.prouctnumbers >= 1}}">
+        <text class='goods-del' data-price='{{goodsItem.price}}' bindtap="bindMinus" data-index="{{idx}}" data-prouctNum="{{goodsItem.prouctnumbers}}" id="flex">-</text>
+        <text class='goods-num' id="flex" wx:if="{{goodsItem.prouctnumbers}}">{{goodsItem.prouctnumbers}}</text>
+        <text class="weixuan" data-price='{{goodsItem.price}}' bindtap="bindadd" data-index='{{idx}}' data-prouctNum="{{goodsItem.prouctnumbers}}" wx:else="{{goodsItem.prouctnumbers}}">0</text>
+        <text class='goods-add' data-price='{{goodsItem.price}}' bindtap="bindadd" data-index='{{idx}}' data-prouctNum="{{goodsItem.prouctnumbers}}" id="flex">+</text>
+      </view>
+      <!-- 如果没有商品默认为+号 -->
+      <view class='good-card-bottom' wx:else="{{goodsItem.prouctnumbers == 0}}">
+        <text class="weixuan" data-price='{{goodsItem.price}}' bindtap="bindadd" data-index='{{idx}}' data-prouctNum="{{goodsItem.prouctnumbers}}">+</text>
+      </view>
+    </view>   
+  </view>
+  <!-- 用户头像 -->
+  <view class='head' bindtap="personage">
+    <image src="{{userInfo.avatarUrl}}"></image>
+  </view>
+  <!-- 模态框 -->
+  <view>
+    <!--mask-->
+    <view class="drawer_screen" bindtap="powerDrawer" data-statu="close" wx:if="{{showModalStatus}}"></view>
+    <!--content-->
+    <!--使用animation属性指定需要执行的动画-->
+    <view animation="{{animationData}}" class="drawer_box" wx:if="{{showModalStatus}}" catchtouchmove="preventTouchMove">
+
+      <!--drawer content-->
+      <!-- 关闭按钮 -->
+      <view class="btn_ok">
+        <view class="back" bindtap="powerDrawer" data-statu="close">
+          <text>×</text>
+        </view>
+      </view>
+      <view class="drawer_content contain">
+
+        <view class='modal-dring-box'>
+           <view class='modal-goods-detail'>
+           <view class='goods-detail-left'>
+           
+           </view>
+           <view class='goods-detail-right'>
+            <text>{{goodsItem.name}}</text>
+            <text>￥{{goodsItem.price}}.00</text>
+           </view>
+
+          <view class='modal-add'>+</view>
+
+           </view>
+           </view>
+
+           <!-- 商品介绍 -->
+           <view class='goods-details'>
+           <view class='detail-left'>
+           <text>使用须知:</text>
+           </view>
+          <view class='detail-right'>
+           <text>{{goodsItem.text}}</text>
+           </view>
+           </view>
+      </view>
+
+    </view>
+
+  </view>
+
+  <!-- 底部 -->
+  <view class='footer'>
+    <view class='footer-left'>
+      <view class='num'>共
+        <text>{{totalNumber}}</text>份</view>
+      <view class='price'>￥{{price}}.00元</view>
+    </view>
+
+    <view class='footer-right'>
+      <button class='bottomPrice1' wx:if="{{totalNumber}}" open-type='getUserInfo' bindtap='pay' bindgetuserinfo="onGotUserInfo">付款</button>
+      <button class='bottomPrice2' wx:else="{{totalNumber}}" open-type='getUserInfo' bindtap='pay1' bindgetuserinfo="onGotUserInfo">未选择</button>
+    </view>
+  </view>
+</view>
+</view>
+  

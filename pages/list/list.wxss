@@ -1,0 +1,293 @@
+.header {
+  font-size: 15px;
+  font-weight: 900;
+  padding-left: 5%;
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  float: left;
+}
+
+.good-pictures {
+  width: 100%;
+  height: 500px;
+  background: white;
+  /* padding: 0 3%; */
+}
+
+.good-picture-eve {
+  width: 44%;
+  height: auto;
+  background: white;
+  float: left;
+  margin-left: 4%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px #888;
+  border-radius: 10px;
+}
+
+.good-list-picture {
+  width: 90%;
+  height: 90px;
+  background: #e0e0e0;
+  float: left;
+  margin: 5%;
+}
+.good-list-picture image{
+  width: 100%;
+  height: 100%;
+}
+.good-card-top {
+  width: 100%;
+  height: 30px;
+  /* background: red; */
+  float: left;
+}
+
+.good-card {
+  font-size: 15px;
+  float: left;
+  padding-top: 5px;
+  margin-left: 5%;
+}
+
+.good-price {
+  float: right;
+  font-size: 15px;
+  color: #e03a80;
+  line-height: 30px;
+  padding-right: 10px;
+}
+
+.good-card-bottom {
+  width: 100%;
+  height: 30px;
+  /* background: red; */
+  float: left;
+  display: flex;
+  text-align: center;
+}
+
+.good-card-bottom text {
+  flex: 1;
+}
+
+.head {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: gray;
+  position: absolute;
+  right: 20px;
+  bottom: 100px;
+  text-align: center；;
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background: white;
+  position: absolute;
+  bottom: 0;
+  box-shadow: 7px 0 7px #e0e0e0;
+}
+
+.footer-left {
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+
+.footer-right {
+  width: 25%;
+  height: 40px;
+  margin-top: 10px;
+  margin-right: 20px;
+  float: right;
+  background: #f9e2bc;
+}
+
+.footer-right button {
+  
+  text-align: center;
+  line-height: 40px;
+  background: #f9e2bc;
+}
+
+.goods-del {
+  color: #e03a80;
+}
+
+.goods-add {
+  color: #e03a80;
+}
+
+.num {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.price {
+  text-align: center;
+  color: black;
+}
+
+/* 模态框 */
+
+/*mask*/
+
+.drawer_screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: white;
+  opacity: 0.5;
+  overflow: hidden;
+}
+
+/*content*/
+
+.drawer_box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  z-index: 1001;
+   /* background: red;  */
+  margin: -150px 0 0 0;
+  border-radius: 3px;
+}
+
+.drawer_title {
+  padding: 15px;
+  font: 20px "microsoft yahei";
+  text-align: center;
+  
+}
+
+.drawer_content {
+  height: 55%;
+  overflow-y: scroll; /*超出父盒子高度可滚动*/
+  background: white;
+}
+
+.btn_ok {
+  font: 20px "microsoft yahei";
+  background: white;
+  /* border-bottom:0.5px solid gray;  */
+  box-shadow: 0 0 1px 0 #888;
+}
+
+/* 模板内部内容 */
+
+.modal-goods-detail {
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #f9e2bc;
+  border-bottom: 1px solid #f9e2bc;
+  position: relative;
+  float: left;
+   padding: 30px 0; 
+}
+
+.goods-detail-left {
+  display: block;
+  float: left;
+  width: 150px;
+  height: 100px;
+  background: gray;
+  margin-top: 1.5%;
+  margin-left: 5%;
+  border-radius: 10px;
+}
+
+.goods-detail-right {
+  display: block;
+  float: left;
+  width: auto;
+  height: 100px;
+  background: white;
+  margin-top: 1.5%;
+  margin-left: 5%;
+  border-radius: 10px;
+}
+
+.modal-add {
+  position: absolute;
+  right: 15px;
+  top: 35%;
+  width: 40px;
+  height: 40px;
+  background: #f9e2bc;
+  float: left;
+  text-align: center;
+  line-height: 30px;
+  font-size: 50px;
+  color: white;
+  border-radius: 50%;
+}
+
+.goods-detail-right text:nth-child(1) {
+  display: block;
+  margin-top: 25px;
+}
+
+.goods-detail-right text:nth-child(2) {
+  color: #e03a80;
+}
+
+.goods-details {
+  width: 100%;
+  height: 100px;
+  z-index: 1000;
+  float: left;
+  padding-top: 10px;
+ 
+}
+
+.detail-left {
+  width: 25%;
+  height: 100%;
+  /* background: green; */
+  float: left;
+}
+
+.detail-left text {
+  display: block;
+  text-align: center;
+}
+
+.detail-right {
+  width: 73%;
+  height: 100%;
+  /* background: red; */
+  float: left;
+}
+
+.detail-right text{
+  font-size: 17px;
+  color: gray;
+}
+
+.back {
+  width: 50px;
+  height: 50px;
+  background: white;
+}
+
+.back text {
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 40px;
+  font-weight: 100;
+}

@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/hisory/hisory",
+    "pages/logs/logs",
+    "pages/purchasehistory/purchasehistory",
+    "pages/flyingintroduce/flyingintroduce",
+    "pages/getshadow/getshadow",
+    "pages/getcard/getcard",
+    "pages/sendfriend/sendfriend",
+    "pages/list/list",
+    "pages/personage/personage",
+    "pages/dome/dome"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#333343",
+    "navigationBarTitleText": "飞宴",
+    "navigationBarTextStyle":"white"
+  }
+}

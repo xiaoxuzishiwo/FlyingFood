@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {},
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#333343",
+  "navigationBarTitleText": "购买历史",
+  "navigationBarTextStyle": "white"
+}

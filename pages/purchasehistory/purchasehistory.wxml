@@ -1,0 +1,43 @@
+<view>
+  <view class="body">
+    <view class="cardb">
+      <view class="card"><image src="../images/card2.jpg"></image></view>
+      <view class="lipin">50元礼品卡</view>
+      <view class="sishijiu">$49</view>
+      <view class="bottom">
+        <view class="particulars">
+          <sapn class="left1">订单号:</sapn>
+          <span class="right1">1833490223</span>
+        </view>
+        <view class="particulars">
+          <sapn class="left1">购买时间:</sapn>
+          <span class="right1">2018.7.18 11:35</span>
+        </view>
+        <view class="particulars">
+          <sapn class="left1">卡卷状态:</sapn>
+          <span class="right1">对方已收</span>
+        </view>
+      </view>
+    </view>
+    <view class="cardb">
+      <view class="card"><image src="../images/card3.jpg"></image></view>
+      <view class="lipin">50元礼品卡</view>
+      <view class="sishijiu">$49</view>
+      <view class="bottom">
+        <view class="particulars">
+          <sapn class="left1">订单号:</sapn>
+          <span class="right1">1833490223</span>
+        </view>
+        <view class="particulars">
+          <sapn class="left1">购买时间:</sapn>
+          <span class="right1">2018.7.18 11:35</span>
+        </view>
+        <view class="particulars">
+          <sapn class="left1">卡卷状态:</sapn>
+          <span class="right1">对方已收</span>
+        </view>
+      </view>
+    </view>
+
+  </view>
+</view>

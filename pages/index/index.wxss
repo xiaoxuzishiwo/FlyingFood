@@ -1,0 +1,421 @@
+page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.nav text{
+  font-size: 25rpx;
+}
+.nav text.active{
+  font-size: 30rpx;
+}
+::-webkit-scrollbar{width: 0;height: 0;color: transparent;}
+/* .popUp{
+  width: 100%;
+  height:100%;
+  position: absolute;
+  left:0;
+  top:0;
+} */
+.top{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 40rpx;
+  height: 60rpx;
+}
+.b1{
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  background:rgba(0,0,0,0.4);
+  /* overflow: hidden; */
+  z-index: 998;
+  font-family: "微软雅黑";
+}
+   
+    .t_w{
+      position:relative;
+      z-index: 999;
+      }
+    .btn1{
+      position: absolute;
+      top: 3rpx;
+      left: 15rpx;
+      height: 1000rpx;
+      font-size: 36rpx;
+    }
+    .b2{
+      width: 538rpx;
+      height: 710rpx;
+      position: relative;
+      margin:30% auto;
+      overflow: hidden;
+      z-index: 999;
+      background-color: #fff;
+      border-radius: 10rpx;
+    }
+    .v1{
+      margin:110rpx auto 30rpx auto;
+      color:#999;
+      font-size:28rpx;
+      background-color: #fff;
+      padding:0rpx 30rpx;
+      text-align: center;
+    }
+    .t_image1{
+      display:block;
+      width:204rpx;
+      height:200rpx;
+    }
+    .img {
+      height:62rpx;
+      width: 62rpx;
+      background: red;
+      border-radius: 50%;
+    }
+    .img image{
+      height:62rpx;
+      width: 62rpx;
+    }
+    .liushun{
+      margin-left: 220rpx;
+      margin-top: -50rpx;
+    }
+    .liushun view{
+      float: left;  
+      font-size: 25rpx;    
+    }
+    .liushun .liu{
+      margin-top: 10rpx;
+      margin-left: 23rpx;
+      color: #ae8654;
+    }
+    .xinyi{
+      font-size:25rpx; 
+      margin-top: 190rpx;
+      margin-left: 140rpx;
+      font-family:"新宋体";
+    }
+    .padding{
+      padding-left:-10rpx;
+
+    }
+.padding .card{
+      width: 480rpx;
+      height: 290rpx;
+      border-radius: 12rpx;
+      margin-top: 40rpx;
+      margin-left: auto; 
+      margin-right: auto;
+      overflow: hidden;
+    }
+.padding .card image{
+      width: 480rpx;
+      height: 290rpx;
+}
+    .get{
+      height: 80rpx;
+      width: 86%;
+      background: #f8d2b0;
+      border-radius: 10rpx;
+      border: .5px solid #f8d2b0;
+      line-height: 88rpx;
+      color: #2d2e32;
+      font-size: 24rpx;
+      text-align: center;
+      margin-top: 68rpx;  
+    }
+    
+    /* 
+      up
+     */
+/**主页滑动效果**/
+
+.body {
+  width: 100%;
+  height: 100%;
+}
+
+.on {
+  color: #da7c0c;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  background: gainsboro;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: black;
+  color: white;
+}
+
+.table-header {
+  flex: 1;
+}
+
+.KFC {
+  display: block;
+  width: 100rpx;
+  height: 100rpx;
+  background: greenyellow;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  border-radius: 50%;
+  font-size: 25rpx;
+  overflow: hidden;
+}
+.KFC image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.nav-swiper-jie {
+  width: 100%;
+  height: 170rpx;
+  background:#333343;
+  margin-top: -15rpx;
+}
+.contain{
+  position: absolute;
+  top: -200rpx;
+  z-index: 999;
+}
+.nav-swiper {
+  width: 94%;
+  height: 300rpx;
+  margin: 0 auto;
+  margin-top: 250rpx;
+  border-radius: 20rpx;
+  z-index: 99;
+  overflow: hidden;
+}
+
+.imgs {
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+.ban-tittle {
+  margin-left: 3%;
+  font-size: 25rpx;
+  padding: 20rpx 0;
+  float: left;
+}
+
+.good-message {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+.good-list {
+  width: 44%;
+  height: auto;
+  margin: 0 22rpx;
+  float: left;
+  margin-bottom: 40rpx;
+  box-shadow: 0 0 10rpx #888;
+  border-radius: 20rpx;
+  z-index: 999;
+}
+.banner-one {
+  width: 100%;
+  height: 100%;
+}
+.banner-blackboard {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-pize {
+  width: 100%;
+  height: 100%;
+}
+
+.good-list-picture {
+  width: 100%;
+  height: 180rpx;
+  background: gray;
+  float: left;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+
+.good-card {
+  font-size: 25rpx;
+  float: left;
+  padding-left: 10rpx;
+  padding-top: 10rpx;
+}
+
+.good-price {
+  float: right;
+  font-size: 24rpx;
+  color: #e03a80;
+  padding-top: 10rpx;
+  padding-right: 10rpx;
+}
+
+/* 滑动效果 */
+
+.tab-h {
+  height: 80rpx;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  line-height: 80rpx;
+  background: #f7f7f7;
+  font-size: 25rpx;
+  white-space: nowrap;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.tab-item {
+  margin: 0 36rpx;
+  display: inline-block;
+}
+
+.tab-item.active:after {
+  content: "";
+  display: block;
+  height: 8rpx;
+  width: 52rpx;
+  background: #4675f9;
+  position: absolute;
+  bottom: 0;
+  left: 5rpx;
+  border-radius: 16rpx;
+}
+
+.item-ans {
+  width: 100%;
+  display: flex;
+  flex-grow: row no-wrap;
+  justify-content: space-between;
+  padding: 30rpx;
+  box-sizing: border-box;
+  height: 180rpx;
+  align-items: center;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.avatar {
+  width: 100rpx;
+  height: 100rpx;
+  position: relative;
+  padding-right: 30rpx;
+}
+
+.avatar .img {
+  width: 100%;
+  height: 100%;
+}
+
+.avatar .doyen {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  bottom: -2px;
+  right: 20rpx;
+}
+
+.expertInfo {
+  font-size: 24rpx;
+  flex-grow: 2;
+  color: #b0b0b0;
+  line-height: 1.5em;
+}
+
+.expertInfo .name {
+  font-size: 32rpx;
+  color: #000;
+  margin-bottom: 12rpx;
+}
+
+.askBtn {
+  width: 120rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 28rpx;
+  border-radius: 60rpx;
+  border: 1px solid #4675f9;
+  color: #4675f9;
+}
+
+.tab-content {
+  margin-top: 80rpx;
+}
+
+.scoll-h {
+  height: 100%;
+}
+
+/* 滑动部分 */
+
+/**index.wxss**/
+.container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+.contain{
+  height: 100%;
+  width: 100%;
+}
+.nav {
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  line-height: 80rpx;
+  background:#333343;
+  color: #ffffff;
+  font-size: 16px;
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nav-item {
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+}
+.nav-item text{
+  height: 50rpx;
+}
+/* .nav-item text.active{
+  font-size: 50rpx;
+} */
+.nav-item.active {
+  color: red;
+  font-size: 50rpx;
+  margin-top: 10rpx;
+}
+
+.swiper {
+  width: 100%;
+  height: 950rpx;
+}
+
+.view {
+  width: 100%;
+  height: 100%;
+}
+
+    
+    

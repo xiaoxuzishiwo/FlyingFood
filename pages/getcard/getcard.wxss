@@ -1,0 +1,74 @@
+.body{
+  padding-top: 30rpx;
+  padding-left: 24rpx;
+  padding-right: 24rpx;
+}
+::-webkit-scrollbar{width: 0;height: 0;color: transparent;}
+
+page{
+  position: relative;
+}
+.header{
+  height: 82rpx;
+}
+.header image{
+  height: 82rpx;
+  width: 82rpx;
+  float: left;
+}
+.header text{
+  float: left;
+  margin-left: 24rpx;
+  margin-top: 24rpx;
+  font-size: 30rpx;
+  background-image: "url('../images/retert.jpg')";
+}
+.card {
+  height: 300rpx;
+  width: 340rpx;
+  margin-top: 40rpx;
+  border-radius: 20rpx;
+  float: left;
+  box-shadow:1rpx 1rpx 3rpx 2rpx #ccc;
+  overflow: hidden;
+}
+.card .card1{
+  height: 200rpx;
+  width: 340rpx;
+  background: red;
+  border-radius: 18rpx;
+}
+.card text{
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 32rpx;
+  margin-top: 20rpx;
+  font-family: "黑体";
+}
+.card2{
+  position: relative;
+}
+.one{
+  position: absolute;
+  left:20rpx;
+}
+.row{
+  position: absolute;
+  right: 20rpx;
+  color: #e8428a;
+}
+.card:nth-child(2n){
+  margin-left:20rpx;
+}
+.bottom{
+  height: 88rpx;
+  width: 672rpx;
+  background: #f1edc3;
+  border-radius: 15rpx;
+  position: absolute;
+  bottom: -1020rpx;
+  left: 40rpx;
+  text-align: center;
+  line-height: 88rpx;
+  font-size: 30rpx;
+}

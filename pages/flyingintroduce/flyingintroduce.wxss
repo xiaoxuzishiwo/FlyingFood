@@ -1,0 +1,58 @@
+::-webkit-scrollbar{width: 0;height: 0;color: transparent;}
+page{
+  height: 100%;
+  width:100%;
+}
+.body{
+  padding: 0 48rpx;
+  color: #7d7d7d;
+}
+p{
+  color: #0c0c0c;
+  font-size: 36rpx;
+}
+.kong{
+  height: 20rpx;
+}
+.feiyan{
+  color: #0c0c0c;
+  margin-top: 10rpx;
+}
+.fei{
+  width:80%;
+  position: relative;
+  font-size:16px;
+  padding: 10px 0;
+}
+span{
+  position:absolute;
+  top:70rpx;
+  display: block;
+  width:60rpx;
+  height:60rpx;
+  background: red;
+}
+span image{
+  width:60rpx;
+  height:60rpx;
+}
+.buttom view{
+  font-size: 18px;
+}
+.fei view{
+  margin:60rpx 85rpx;
+}
+.bottom{
+  margin-top: -20rpx;
+  /* background: red; */
+}
+.bottom .yi{
+  font-size: 16px;
+  margin-top: 20rpx;
+}
+.bottom2{
+  margin-top:60rpx;
+}
+.kefu{
+  font-size: 16px;
+}

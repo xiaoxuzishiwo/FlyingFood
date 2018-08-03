@@ -1,0 +1,18 @@
+<view class="body">
+  <view class="cardFigure"><image src="../images/card1.jpeg"></image></view>
+  <view class="kdj">
+    <view class="er">肯德基<text>50元</text>礼品卡</view>
+    <view class="yi">收到礼品卡,已放入卡包</view>
+  </view>
+  <view class="memeda">
+    <view class="image"><image src="../images/cardb.jpeg"></image><textarea><view>刘顺打你一顿!</view>
+    请你吃肉,么么哒!! </textarea></view>
+    
+    <view class="btn1" bindtap="onlchi"></view>
+  </view>
+  <view class="bottom3">
+    <view class="diyige">进礼包看看</view>
+    <view class="dierge" bindtap="sendTo">我也要送</view>
+  </view>
+
+</view>

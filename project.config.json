@@ -1,0 +1,94 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.7.1",
+	"appid": "wx3344e66745e280c3",
+	"projectname": "fei1",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 8,
+			"list": [
+				{
+					"id": -1,
+					"name": "hisory",
+					"pathName": "pages/hisory/hisory",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "purchasehistory",
+					"pathName": "pages/purchasehistory/purchasehistory",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "flyingintroduce",
+					"pathName": "pages/flyingintroduce/flyingintroduce",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "getshadow",
+					"pathName": "pages/getshadow/getshadow",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "getcard",
+					"pathName": "pages/getcard/getcard",
+					"query": ""
+				},
+				{
+					"id": 6,
+					"name": "sendfriend",
+					"pathName": "pages/sendfriend/sendfriend",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "list",
+					"pathName": "pages/list/list",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "dome",
+					"pathName": "pages/dome/dome"
+				}
+			]
+		}
+	}
+}

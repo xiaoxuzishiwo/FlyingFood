@@ -1,0 +1,52 @@
+::-webkit-scrollbar{width: 0;height: 0;color: transparent;}
+page {
+  display: block;
+  min-height: 100%;
+  background-color: #eae9ea;
+}
+.cardb{
+  background: #ffffff;
+  height: 365rpx;
+  width: 100%;
+  margin-top: 20rpx;
+  position: relative;
+  padding: 0 24rpx;
+}
+.cardb .card{
+  position: absolute;
+  top:46rpx;
+  left:24rpx;
+} 
+.cardb .lipin{
+  position: absolute;
+  top:52rpx;
+  left:300rpx;
+  font-size: 16px;
+  font-family: "微软雅黑";
+}
+.cardb .sishijiu{
+  position: absolute;
+  top:98rpx;
+  left:300rpx;
+  font-size: 14px;
+  color: #e84089;
+}
+.cardb .bottom{
+  width: 100%;
+  position: absolute;
+  top:226rpx;
+  color: #444444;
+  font-size: 14px;
+}
+.cardb .card image{
+  height:146rpx;
+  width: 240rpx;
+  background: red;
+  border-radius: 10rpx;
+}
+
+.cardb .bottom .right1{
+  /* border: 1px solid red; */
+  float: right;
+  margin-right: 45px;
+}

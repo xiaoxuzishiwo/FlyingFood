@@ -1,0 +1,83 @@
+.body{
+  height: 100%;
+  padding-bottom: 100rpx;
+}
+::-webkit-scrollbar{width: 0;height: 0;color: transparent;}
+
+.cardFigure{
+  width: 90%;
+  height:396rpx;
+  margin:0 auto;
+  margin-top:30rpx;
+  border-radius: 10rpx;
+  background: #ccc;
+}
+.cardFigure image{
+  width: 100%;
+  height:396rpx;
+}
+.kdj{
+  width: 90%;
+  margin:0 auto;
+  margin-top: 40rpx;
+  height: 34px;
+  font-family: "黑体";
+}
+.er{
+  float: left;
+  font-size: 30rpx;
+  color: #0c0b32;
+}
+.kdj .er text{
+  color: #f3900d;
+}
+.yi{
+  float: right;
+  font-size: 22rpx;
+  color: #6c6c6e;
+}
+
+.memeda{
+  padding: 0 96rpx;
+  position: relative;
+}
+.memeda image{
+  height: 360rpx;
+  width: 558rpx;
+}
+.memeda textarea{
+  position: absolute;
+  top:115rpx;
+  left: 303rpx;
+  z-index: 999;
+  height:220rpx;
+  width:300rpx;
+  background: #ffffff;
+  font-size:14px;
+  font-family: "楷体";
+}
+.memeda textarea view{
+  text-align: center;
+}
+.bottom3{
+  padding: 0 20rpx;
+}
+.bottom3 view{
+  width: 343rpx;
+  height: 86rpx;
+  line-height: 86rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  float: left;
+  font-size: 14px;
+  margin-top: 132rpx;
+}
+.bottom3 .diyige{
+  border: 1px solid #967768;
+  color: #967768;
+}
+.bottom3 .dierge{
+  background: #ffeebb;
+  border: 1px solid #ffeebb;
+  margin-left:18rpx;
+}

@@ -1,0 +1,19 @@
+<view class="body">
+  <view class="fei"><span><image src="../images/book.jpeg"></image></span><view class="feiyan">飞宴介绍</view></view>
+  <view class="bottom">
+    <p>一、使用须知</p>
+    <view class="yi">1、飞宴礼品卡商城是一个具有商户授权的微信礼品发售平台, 你可以在这里购买到各种礼品卡送给朋友/买给自己。</view>
+    <view class="yi">2、购买的礼品卡历史记录, 可以到飞宴小程序"我"-"购买历史, 可以进行历史订单查看和处理。</view>
+    <view class="yi">3、商户可以零门槛入驻飞宴商城发售微信礼品卡, 入驻请直接咨询客服。</view>
+  </view>
+  <view class="bottom bottom2">
+    <p>二、开票指引</p>
+    <view class="yi">开票功能正在努力开发中, 目前暂不支持开票。</view>
+  </view>
+  <view class="bottom bottom2">
+    <p>三、联系我们</p>
+    <view class="kong"></view>
+    <view class="kefu">客服电话:   010-8888-8888</view>
+    <view class="kefu">服务时间:   工作日10:00-18:00</view>
+  </view>
+</view>

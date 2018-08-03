@@ -1,0 +1,10 @@
+<view class="body">
+  <view class="hisory" bindtap="purchase">
+    <view>购买历史</view>
+    <image src="../images/right.jpg"></image>
+  </view>
+  <view class="fei" bindtap="flying">
+    <view>关于飞宴</view>
+    <image src="../images/right.jpg"></image>
+  </view>
+</view>
